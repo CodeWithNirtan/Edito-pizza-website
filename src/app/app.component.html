@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="./app.component.css">
+</head>
+
+<body>
+   <!-- first_nav -->
+   <nav class="navbar bg-dark">
+      <a class="navbar-brand"><img src="../assets/Logo.png" height="110px" width="250px" alt="logo"></a>
+      <span role="button" class="mobilenavopenbtn position-absolute" onclick="opennav()"><i
+            class="fas fa-angle-double-down"></i></span>
+
+      <nav class="navbar nav">
+         <li class="nav-item">
+            <a href="#" class="text-light"><i class="fas fa-shopping-basket"></i></a>
+         </li>
+      </nav>
+   </nav>
+   <!-- first_nav -->
+
+   
+   <!-- second_nav -->
+   <nav class="stroke color navbar navbar-expand-sm navbar-light">
+      <div class="ml-auto">
+         <ul class="navbar-nav text-uppercase" style="font-weight: bolder; font-size: 18px;">
+            
+            <li class="nav-item pr-5">
+               <a class="nav-link" href="#">Restaurants</a>
+            </li>
+            
+            <li class="nav-item pr-5">
+               <a class="nav-link" href="#">Custom Orders</a>
+            </li>
+
+            <li class="nav-item pr-4">
+               <a class="nav-link" href="#">About us</a>
+            </li>
+            
+         </ul>
+      </div>
+      
+   </nav>
+   <!-- second_nav -->
+   
+   <!-- carousel -->
+   <div class="carousel slide" data-ride="carousel" id="mycarousel">
+      <ul class="carousel-indicators">
+         <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+         <li data-target="#mycarousel" data-slide-to="1"></li>
+         <li data-target="#mycarousel" data-slide-to="2"></li>
+      </ul>
+      <div class="inner-carousel">
+         <div class="carousel-item active"
+         style="background-image:url(../assets/1.jpg);background-size: 100% 100%;background-repeat:no-repeat;height:700px;">
+         <div class="poster_title">
+            Add title here
+         </div>
+         <div class="poster_text">
+            Add text here
+         </div>
+         <a href="#" class="btn btn-outline-primary mt-5" style="margin-left: 100px;">Readmore</a>
+      </div>
+      <div class="carousel-item"
+      style="background-image:url(../assets/2.jpeg);background-size: 100% 100%;background-repeat: no-repeat;height: 700px;">
+      <div class="poster_title">
+         Add title here
+      </div>
+            <div class="poster_text">
+               Add text here
+            </div>
+            <a href="#" class="btn btn-outline-primary mt-5" style="margin-left: 100px;">Readmore</a>
+         </div>
+         <div class="carousel-item"
+         style="background-image:url(../assets/3.jpg);background-size: 100% 100%;background-repeat: no-repeat;height: 700px;">
+         <div class="poster_title">
+            Add title here
+         </div>
+         <div class="poster_text">
+               Add title here
+            </div>
+            <a href="#" class="btn btn-outline-primary mt-5" style="margin-left: 100px;">Readmore</a>
+         </div>
+         
+         <a class="carousel-control-prev" href="#mycarousel" data-slide="prev"></a>
+         <a class="carousel-control-next" href="#mycarousel" data-slide="next"></a>
+      </div>
+   </div>
+   <!-- carousel -->
+   
+   
+   <!-- scroll spy navigaition -->
+   <nav class="stroke navbar bg-danger">
+         <ul class="navbar nav text-uppercase mx-auto" style="font-weight: bolder; font-size: 18px;">
+            
+            <li class="nav-item">
+               <a class="nav-link scollspy" href="#">Most ordered deals</a>
+            </li>
+            
+            <li class="nav-item">
+               <a class="nav-link scollspy" href="#">Trending</a>
+            </li>
+
+            <li class="nav-item">
+               <a class="nav-link scollspy" href="#">Special Offers</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link scollspy" href="#">EditoPizza special</a>
+            </li>
+            
+         </ul>
+      
+   </nav>
+
+   <!-- scroll spy navigaition -->
+   
+
+   <!-- carousel-end -->
+   
+   <!-- HEADING 1 -->
+   <div class="heading2">
+      <span class="heading_text2">Add heading here</span>
+   </div>
+   <!-- HEADING 1 -->
+
+
+   <!-- product_carosel1 -->
+   <div id="carouselId" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+         <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+         <li data-target="#carouselId" data-slide-to="1"></li>
+         <li data-target="#carouselId" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+         <div class="carousel-item active">
+            <div class="mt-5 jumbotron bg-white">
+               <div class="row justify-content-center">
+                  <div class="card ml-4 mr-5 mt-3" style="width: 250px;">
+                     <img src="../assets/mexi.png" height="200px">
+                     <div style="top: 15px; left: 0px; position: absolute;">
+                        <span class="p-1 text-white"
+                           style="font-size: smaller; background: rgb(190, 55, 55);">-10%</span>
+                     </div>
+                     <div class="card-body">
+                        <h3 class="card-title">Mexican Pizza</h3>
+                        <h5 class="card-text" style="color: rgb(190, 55, 55);"><del class="text-secondary">Rs <b>3,400
+                              </b></del> &nbsp;Rs <b>2,000</b></h5>
+                        <br>
+                        <div class="row">
+                           <div class="col-md-7">
+                              <a href="" class="cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                           </div>
+                           <div class="col-md-2">
+                              <a href="#" class="eye"><i class="fas fa-eye fa-lg"></i></a>
+                           </div>
+                           <div class="col-md-3">
+                              <div class="wish">
+                                 <input type="checkbox" id="heart5" name="wishlist" value="1" />
+                                 <label id="tool5" for="heart5"><i class="fas fa-heart"></i></label>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="card ml-4 mr-5 mt-3" style="width: 250px;">
+                     <img src="../assets/pepe.png" class="ml-3" height="200px" width="220px">
+                     <div class="card-body">
+                        <h3 class="card-title">Pepperoni Pizza</h3>
+                        <h5 class="card-text" style="color: rgb(190, 55, 55);">Rs <b>2,000</b></h5>
+                        <br>
+                        <div class="row">
+                           <div class="col-md-7">
+                              <a href="" class="cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                           </div>
+                           <div class="col-md-2">
+                              <a href="#" class="eye"><i class="fas fa-eye fa-lg"></i></a>
+                           </div>
+                           <div class="col-md-3">
+                              <div class="wish">
+                                 <input type="checkbox" id="heart6" name="wishlist" value="1" />
+                                 <label id="tool6" for="heart6"><i class="fas fa-heart"></i></label>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="card ml-4 mr-5 mt-3" style="width: 250px;">
+                     <img src="../assets/ita.png" style="margin-left: -25px;" height="200px" width="300px">
+                     <div class="card-body">
+                        <h3 class="card-title">Italian Pizza</h3>
+                        <h5 class="card-text" style="color: rgb(190, 55, 55);">RS <b>2,000</b></h5>
+                        <br>
+                        <div class="row">
+                           <div class="col-md-7">
+                              <a href="" class="cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                           </div>
+                           <div class="col-md-2">
+                              <a href="#" class="eye"><i class="fas fa-eye fa-lg"></i></a>
+                           </div>
+                           <div class="col-md-3">
+                              <div class="wish">
+                                 <input type="checkbox" id="heart7" name="wishlist" value="1" />
+                                 <label id="tool7" for="heart7"><i class="fas fa-heart"></i></label>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+         <div class="carousel-item">
+            <div class="mt-5 jumbotron bg-white">
+               <div class="row justify-content-center">
+                  <div class="card ml-4 mr-5 mt-3 " style="width: 250px;">
+                     <img src="../assets/chee.png" height="200px">
+                     <div style="top: 15px; left: 0px; position: absolute;">
+                        <span class="p-1 text-white"
+                           style="font-size: smaller; background: rgb(190, 55, 55);">-10%</span>
+                     </div>
+                     <div class="card-body">
+                        <h3 class="card-title">Cheese Pizza</h3>
+                        <h5 class="card-text" style="color: rgb(190, 55, 55);"><del class="text-secondary">Rs <b>3,400
+                              </b></del> &nbsp;Rs <b>2,000</b></h5>
+                        <br>
+                        <div class="row">
+                           <div class="col-md-7">
+                              <a href="" class="cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                           </div>
+                           <div class="col-md-2">
+                              <a href="#" class="eye"><i class="fas fa-eye fa-lg"></i></a>
+                           </div>
+                           <div class="col-md-3">
+                              <div class="wish">
+                                 <input type="checkbox" id="heart5" name="wishlist" value="1" />
+                                 <label id="tool5" for="heart5"><i class="fas fa-heart"></i></label>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="card ml-4 mr-5 mt-3" style="width: 250px;">
+                     <img src="../assets/chic.png" style="margin-left: -25px;" height="200px" width="300px">
+                     <div class="card-body">
+                        <h3 class="card-title">Chicken Pizza</h3>
+                        <h5 class="card-text" style="color: rgb(190, 55, 55);">Rs <b>2,000</b></h5>
+                        <br>
+                        <div class="row">
+                           <div class="col-md-7">
+                              <a href="" class="cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                           </div>
+                           <div class="col-md-2">
+                              <a href="#" class="eye"><i class="fas fa-eye fa-lg"></i></a>
+                           </div>
+                           <div class="col-md-3">
+                              <div class="wish">
+                                 <input type="checkbox" id="heart6" name="wishlist" value="1" />
+                                 <label id="tool6" for="heart6"><i class="fas fa-heart"></i></label>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="card ml-4 mr-5 mt-3" style="width: 250px;">
+                     <img src="../assets/veg.png" height="200px">
+                     <div class="card-body">
+                        <h3 class="card-title">Veggie Pizza</h3>
+                        <h5 class="card-text" style="color: rgb(190, 55, 55);">RS <b>2,000</b></h5>
+                        <br>
+                        <div class="row">
+                           <div class="col-md-7">
+                              <a href="" class="cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                           </div>
+                           <div class="col-md-2">
+                              <a href="#" class="eye"><i class="fas fa-eye fa-lg"></i></a>
+                           </div>
+                           <div class="col-md-3">
+                              <div class="wish">
+                                 <input type="checkbox" id="heart7" name="wishlist" value="1" />
+                                 <label id="tool7" for="heart7"><i class="fas fa-heart"></i></label>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
+         <i class="far fa-arrow-alt-circle-left fa-3x" style="color: rgb(190, 55, 55);"></i>
+
+      </a>
+      <a class="carousel-control-next" href="#carouselId" role="button" data-slide="next">
+         <i class="far fa-arrow-alt-circle-right fa-3x" style="color: rgb(190, 55, 55);"></i>
+      </a>
+   </div>
+   <!-- product_carosel1 -->
+
+   <!-- HEADING 2 -->
+   <div class="heading">
+      <span class="heading_text">Add heading here</span>
+   </div>
+   <!-- HEADING 2 -->
+
+   <!-- product_carosel2 -->
+   <div id="carouselId1" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+         <li data-target="#carouselId" data-slide-to="0" class="active"></li>
+         <li data-target="#carouselId" data-slide-to="1"></li>
+         <li data-target="#carouselId" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+         <div class="carousel-item active">
+            <div class="mt-5 jumbotron bg-white">
+               <div class="row justify-content-center">
+                  <div class="card ml-4 mr-5 mt-3" style="width: 250px;">
+                     <img src="../assets/mexi.png" height="200px">
+                     <div style="top: 15px; left: 0px; position: absolute;">
+                        <span class="p-1 text-white"
+                           style="font-size: smaller; background: rgb(190, 55, 55);">-10%</span>
+                     </div>
+                     <div class="card-body">
+                        <h3 class="card-title">Mexican Pizza</h3>
+                        <h5 class="card-text" style="color: rgb(190, 55, 55);"><del class="text-secondary">Rs <b>3,400
+                              </b></del> &nbsp;Rs <b>2,000</b></h5>
+                        <br>
+                        <div class="row">
+                           <div class="col-md-7">
+                              <a href="" class="cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                           </div>
+                           <div class="col-md-2">
+                              <a href="#" class="eye"><i class="fas fa-eye fa-lg"></i></a>
+                           </div>
+                           <div class="col-md-3">
+                              <div class="wish">
+                                 <input type="checkbox" id="heart5" name="wishlist" value="1" />
+                                 <label id="tool5" for="heart5"><i class="fas fa-heart"></i></label>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="card ml-4 mr-5 mt-3" style="width: 250px;">
+                     <img src="../assets/pepe.png" class="ml-3" height="200px" width="220px">
+                     <div class="card-body">
+                        <h3 class="card-title">Pepperoni Pizza</h3>
+                        <h5 class="card-text" style="color: rgb(190, 55, 55);">Rs <b>2,000</b></h5>
+                        <br>
+                        <div class="row">
+                           <div class="col-md-7">
+                              <a href="" class="cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                           </div>
+                           <div class="col-md-2">
+                              <a href="#" class="eye"><i class="fas fa-eye fa-lg"></i></a>
+                           </div>
+                           <div class="col-md-3">
+                              <div class="wish">
+                                 <input type="checkbox" id="heart6" name="wishlist" value="1" />
+                                 <label id="tool6" for="heart6"><i class="fas fa-heart"></i></label>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="card ml-4 mr-5 mt-3" style="width: 250px;">
+                     <img src="../assets/ita.png" style="margin-left: -25px;" height="200px" width="300px">
+                     <div class="card-body">
+                        <h3 class="card-title">Italian Pizza</h3>
+                        <h5 class="card-text" style="color: rgb(190, 55, 55);">RS <b>2,000</b></h5>
+                        <br>
+                        <div class="row">
+                           <div class="col-md-7">
+                              <a href="" class="cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                           </div>
+                           <div class="col-md-2">
+                              <a href="#" class="eye"><i class="fas fa-eye fa-lg"></i></a>
+                           </div>
+                           <div class="col-md-3">
+                              <div class="wish">
+                                 <input type="checkbox" id="heart7" name="wishlist" value="1" />
+                                 <label id="tool7" for="heart7"><i class="fas fa-heart"></i></label>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+         <div class="carousel-item">
+            <div class="mt-5 jumbotron bg-white">
+               <div class="row justify-content-center">
+                  <div class="card ml-4 mr-5 mt-3 " style="width: 250px;">
+                     <img src="../assets/chee.png" height="200px">
+                     <div style="top: 15px; left: 0px; position: absolute;">
+                        <span class="p-1 text-white"
+                           style="font-size: smaller; background: rgb(190, 55, 55);">-10%</span>
+                     </div>
+                     <div class="card-body">
+                        <h3 class="card-title">Cheese Pizza</h3>
+                        <h5 class="card-text" style="color: rgb(190, 55, 55);"><del class="text-secondary">Rs <b>3,400
+                              </b></del> &nbsp;Rs <b>2,000</b></h5>
+                        <br>
+                        <div class="row">
+                           <div class="col-md-7">
+                              <a href="" class="cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                           </div>
+                           <div class="col-md-2">
+                              <a href="#" class="eye"><i class="fas fa-eye fa-lg"></i></a>
+                           </div>
+                           <div class="col-md-3">
+                              <div class="wish">
+                                 <input type="checkbox" id="heart5" name="wishlist" value="1" />
+                                 <label id="tool5" for="heart5"><i class="fas fa-heart"></i></label>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="card ml-4 mr-5 mt-3" style="width: 250px;">
+                     <img src="../assets/chic.png" style="margin-left: -25px;" height="200px" width="300px">
+                     <div class="card-body">
+                        <h3 class="card-title">Chicken Pizza</h3>
+                        <h5 class="card-text" style="color: rgb(190, 55, 55);">Rs <b>2,000</b></h5>
+                        <br>
+                        <div class="row">
+                           <div class="col-md-7">
+                              <a href="" class="cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                           </div>
+                           <div class="col-md-2">
+                              <a href="#" class="eye"><i class="fas fa-eye fa-lg"></i></a>
+                           </div>
+                           <div class="col-md-3">
+                              <div class="wish">
+                                 <input type="checkbox" id="heart6" name="wishlist" value="1" />
+                                 <label id="tool6" for="heart6"><i class="fas fa-heart"></i></label>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+                  <div class="card ml-4 mr-5 mt-3" style="width: 250px;">
+                     <img src="../assets/veg.png" height="200px">
+                     <div class="card-body">
+                        <h3 class="card-title">Veggie Pizza</h3>
+                        <h5 class="card-text" style="color: rgb(190, 55, 55);">RS <b>2,000</b></h5>
+                        <br>
+                        <div class="row">
+                           <div class="col-md-7">
+                              <a href="" class="cart"><i class="fas fa-shopping-cart"></i> Add To Cart</a>
+                           </div>
+                           <div class="col-md-2">
+                              <a href="#" class="eye"><i class="fas fa-eye fa-lg"></i></a>
+                           </div>
+                           <div class="col-md-3">
+                              <div class="wish">
+                                 <input type="checkbox" id="heart7" name="wishlist" value="1" />
+                                 <label id="tool7" for="heart7"><i class="fas fa-heart"></i></label>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+            </div>
+         </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#carouselId1" role="button" data-slide="prev">
+         <i class="far fa-arrow-alt-circle-left fa-3x" style="color: rgb(190, 55, 55);"></i>
+
+      </a>
+      <a class="carousel-control-next" href="#carouselId1" role="button" data-slide="next">
+         <i class="far fa-arrow-alt-circle-right fa-3x" style="color: rgb(190, 55, 55);"></i>
+      </a>
+   </div>
+   <!-- product_carosel2 -->
+
+   <!-- HEADING 3 -->
+   <div class="heading2">
+      <span class="heading_text2">Add heading here</span>
+   </div>
+   <!-- HEADING 3 -->
+
+
+
+   <!-- footer -->
+
+   <div class="container-fluid p-5 bg-dark">
+      <footer>
+         <div class="text-center">
+
+            <a href="#"><img src="../assets/Logo.png" style="margin-bottom: 100px;" height="110px" width="250p"></a>
+
+            <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+
+         </div><br>
+         <div class="row ml-5">
+            <div class="col-md-4">
+
+               <h4 class="font-weight-bold text-light">Affiliated Restaurents</h4><br>
+
+               <img src="../assets/pizzahut.png" width="100px" alt="">&nbsp;&nbsp;
+               <img src="../assets/max.png" width="100px" alt="">&nbsp;&nbsp;
+               <img src="../assets/point.png" width="100px" alt=""><br><br>
+               <img src="../assets/dominos.png" width="100px" alt="">&nbsp;&nbsp;
+               <img src="../assets/broadway.png" width="100px" alt="">&nbsp;&nbsp;
+               <img src="../assets/crust.png" width="100px" alt="">
+
+            </div>
+            <div class="col-md-4">
+
+               <h4 class="font-weight-bold text-light">Contact Us</h4><br>
+
+               <p class="mb-2" style="text-decoration: none; font-size: larger; color: rgb(189, 189, 189);">ABC
+                  Street,Karachi,Sindh</p>
+               <p class="mt-3" style="text-decoration: none; font-size: larger; color: rgb(189, 189, 189);"><b>Whatsapp
+                     :</b> xxxx-xxxxxxx</p>
+               <p class="mt-3" style="text-decoration: none; font-size: larger; color: rgb(189, 189, 189);"><b>Phone
+                     :</b> xxxx-xxxxxxx</p>
+
+            </div>
+            <div class="col-md-4">
+
+               <h4 class="font-weight-bold text-light">Follow Us On</h4><br>
+
+               <div class="rounded-social-buttons">
+                  <a class="social-button facebook" href="https://www.facebook.com/" target="_blank"><i
+                        class="fab fa-facebook-f"></i></a>
+                  <a class="social-button twitter" href="https://twitter.com/" target="_blank"><i
+                        class="fab fa-twitter"></i></a>
+                  <a class="social-button whatsapp" href="https://www.whatsapp.com/" target="_blank"><i
+                        class="fab fa-whatsapp"></i></a>
+                  <a class="social-button instagram" href="https://www.instagram.com/" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+               </div>
+            </div>
+         </div>
+
+      </footer>
+   </div>
+
+   <div class="jumbotron-fluid p-1 text-center text-white font-weight-bold" style="background-color: rgb(190, 55, 55);">
+      <p class="mt-3">Copyright &copy; 2021 Website | All Rights Reserved.</p>
+   </div>
+   <!-- footer -->
+
+
+
+
+
+   <router-outlet></router-outlet>
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+  
+  @media screen and (max-width:1430px) 
+  {
+    .poster_title
+    {
+          font-size: 55px;
+    }
+    .poster_text
+    {
+      font-size: 30;
+    }
+  
+  }
+   @media screen and (max-width:1204px) {
+    .poster_title
+    {
+          font-size: 45px;
+    }
+    .poster_text
+    {
+      font-size: 25px;
+    }
+  
+  }
+  @media screen and (max-width:766px) 
+  
+  {
+    .poster_title
+    {
+          font-size: 35px;
+    }
+    .poster_text
+    {
+      font-size: 20px;
+    }
+    .heading_text
+    {
+      font-size: 28px;
+      padding: 25px;
+      /* padding-left: 10px; */
+    }   
+    .heading_text2
+    {
+      font-size: 28px;
+      padding: 25px;
+      /* padding-left: 20px; */
+  }
+  }
+  
+  @media screen and (max-width:592px) {
+    .poster_title
+    {
+          font-size: 25px;
+    }
+    .poster_text
+    {
+      font-size: 15px;
+    }
+  } 

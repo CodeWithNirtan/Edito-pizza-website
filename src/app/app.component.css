@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body
+{
+  
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .nav1
+{
+  background-color: rgb(41, 43, 44);
+  height: 80px;
+}
+.nav-link.scollspy
+{
+  color: black;
+}
+.logo
+{
+  margin-top: -50px;
+}
+.mobilenavopenbtn
+{
+  display: none;
+  font-size: 50px;
+  color: white;
+  cursor: pointer;
+}
+
+.fa-shopping-basket
+{
+  margin-right: 50px;
+  margin-top: 25px;
+    float: right;
+    font-size: 35px;
+}
+
+.stroke.color.navbar.navbar-expand-sm.navbar-light
+{
+    background-image: url(../assets/Untitled-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  ul li a:hover
+  {
+  color: white;
+}
+
+nav.stroke ul li a
+{
+  position: relative;
+}
+nav.stroke ul li a:after
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: rgb(41, 43, 44);
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+  height: 2px;
+}
+
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+
+nav.line a.line1
+{
+  position: relative;
+}
+nav.line a.line1:after
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: white;
+  height: 1px;
+}
+nav.line a.line1:hover:after {
+  width: 100%;
+}
+
+nav.line a.line1,
+nav.line a.line1:after,
+nav.line a.line1:before {
+  transition: all .5s;
+}
+
+.poster_title
+{
+  color: white;
+  font-size: 65px;
+  font-weight: bold;
+  padding-left:100px;
+  padding-top: 100px;
+}
+.poster_text
+{
+  color: white;
+  font-size:35px;
+  padding-left:100px;
+}
+
+
+
+
+
+.h
+{
+  font-size: 60px;
+}
+
+.carousel-indicators li 
+{
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  
+}
+
+.btn-outline-light:hover 
+{
+    color: white;
+    background: rgba(190, 55, 55, 0.75);
+    border: 2px solid;
+  }
+  
+  
+  .heading
+  {
+    background-image: url(../assets/back.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    
+  }
+  .heading_text
+  {
+    color:black;
+    font-weight: bold;
+    font-size: 35px;
+    float: right;
+  padding: 20px;
+  padding-right:10%;
+  
+}
+
+.heading2
+{
+  background-image: url(../assets/secback.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  
+}
+.heading_text2
+{
+  color:black;
+  font-weight: bold;
+  font-size: 35px;
+  float: left;
+  padding: 20px;
+  padding-left: 10%;
+  
+}
+
+.logo1
+{
+  margin-top: -100px;
+}
+
+hr
+{
+  height:2px;
+  border-width:0;
+  color:gray;
+  background-color:gray;
+  margin-top: -80px;
+  
+}
+
+  .social-button {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border: 3px solid transparent;
+    text-decoration: none;
+    text-align: center;
+    color: #fefefe;
+    font-size: 25px;
+    line-height: 45px;
+    border-radius: 27px;
+    transition: all 0.5s ease;
+    margin-right: 15px;
+    
+  }
+  
+  
+  .rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus 
+  {
+    transform: rotate(720deg);
+  }
+
+.rounded-social-buttons .fa-twitter, .fa-facebook-f, .fa-whatsapp, .fa-instagram {
+  font-size: 25px;
+}
+
+.rounded-social-buttons .social-button.facebook {
+  background: #3b5998;
+}
+
+.rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
+  color: #3b5998;
+  background: #fefefe;
+  border-color: #3b5998;
+}
+
+.rounded-social-buttons .social-button.twitter {
+  background: #55acee;
+}
+
+.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+  color: #55acee;
+  background: #fefefe;
+  border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.whatsapp {
+  background: #24d366;
+}
+
+.rounded-social-buttons .social-button.whatsapp:hover, .rounded-social-buttons .social-button.whatsapp:focus {
+  color: #25d366;
+  background: #fefefe;
+  border-color: #25d366;
+}
+
+.rounded-social-buttons .social-button.instagram {
+  background: #125688;
+}
+
+.rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
+  color: #125688;
+  background: #fefefe;
+  border-color: #125688;
+}
+
+.eye
+{
+  color: black;
+}
+
+.eye:hover
+{
+  transition: 0.5s;
+  color: rgb(190, 55,55);
+}
+
+.wish > input { display: none; } 
+.wish > label
+{
+  cursor: pointer;
+}
+
+  
+.wish > input:checked ~ label, 
+.wish:not(:checked) > label:hover ~ label { color: rgb(230, 64, 64);  }
+
+.card:hover
+{
+  transform: scale(1.05); 
+  transition: 0.5s;
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+a.cart
+{
+  text-decoration: none;
+  color: black;
+}
+
+.cart:hover
+{
+    transition: 0.5s;
+    color: rgb(190, 55,55);
+  }
+  /* media for mobile devices */
+  @media  screen and (max-width:992px)
+  {
+    .stroke.color.navbar.navbar-expand-sm.navbar-light
+  {
+    display: none;
+  }
+  .navbar-brand
+  {
+    margin: auto;
+  }
+  .mobilenavopenbtn
+  {
+    display: block;
+  }
+  
+  }
+  
+  @media screen and (max-width:1430px) 
+  {
+    .poster_title
+    {
+      font-size: 55px;
+    }
+    .poster_text
+  {
+    font-size: 30;
+  }
+
+}
+@media screen and (max-width:1204px) {
+  .poster_title
+  {
+        font-size: 45px;
+      }
+  .poster_text
+  {
+    font-size: 25px;
+  }
+  
+}
+@media screen and (max-width:766px) 
+
+{
+  .poster_title
+  {
+        font-size: 35px;
+  }
+  .poster_text
+  {
+    font-size: 20px;
+  }
+  .heading_text
+  {
+    font-size: 28px;
+    padding: 25px;
+  }   
+  .heading_text2
+  {
+    font-size: 28px;
+    padding: 25px;
+}
+}
+
+@media screen and (max-width:592px) {
+  .poster_title
+  {
+        font-size: 25px;
+  }
+  .poster_text
+  {
+    font-size: 15px;
+  }
+} 
+
+@media screen and (max-width:808px) {
+  .nav-link.scollspy
+  {
+    margin-right: 2px;
+    font-size: 14px;
+  }
+
+} 
